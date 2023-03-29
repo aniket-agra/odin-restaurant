@@ -11,27 +11,35 @@ btn1.textContent = "Home";
 btn1.addEventListener("click", function (e) {
   document.querySelectorAll("#content > *").forEach(e => document.querySelector("#content").removeChild(e));
   createHome();
-  btn1.style.borderBottom = "none";
+  btn1.classList.remove("showBorder");
+  btn2.classList.add("showBorder");
+  btn3.classList.add("showBorder");
 });
 btnDiv.appendChild(btn1);
 
 const btn2 = document.createElement("button");
 btn2.classList.add("menu");
+btn2.classList.add("showBorder");
 btn2.textContent = "Menu";
 btn2.addEventListener("click", function (e) {
   document.querySelectorAll("#content > *").forEach(e => document.querySelector("#content").removeChild(e));
   createMenu();
-  btn2.style.borderBottom = "none";
+  btn1.classList.add("showBorder");
+  btn2.classList.remove("showBorder");
+  btn3.classList.add("showBorder");
 });
 btnDiv.appendChild(btn2);
 
 const btn3 = document.createElement("button");
 btn3.classList.add("contact");
+btn3.classList.add("showBorder");
 btn3.textContent = "Contact";
 btn3.addEventListener("click", function (e) {
   document.querySelectorAll("#content > *").forEach(e => document.querySelector("#content").removeChild(e));
   createContact();
-  btn3.style.borderBottom = "none";
+  btn1.classList.add("showBorder");
+  btn2.classList.add("showBorder");
+  btn3.classList.remove("showBorder");
 });
 btnDiv.appendChild(btn3);
 
