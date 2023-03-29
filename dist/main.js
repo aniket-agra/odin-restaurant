@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){let t=document.createElement("div.home");t.textContent="This is our contact!",document.querySelector("#content").appendChild(t)}()})();
