@@ -13,7 +13,8 @@ button {
 }
 
 .buttons {
-  margin-bottom: -4px;
+  display: flex;
+  justify-content: center;
 }
 
 #content {
