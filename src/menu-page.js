@@ -1,7 +1,7 @@
 // fill content on menu page
 
 function createContent () {
-    let element = document.createElement("div.home");
+    let element = document.createElement("div.menu");
     
 }
 
