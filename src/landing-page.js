@@ -4,9 +4,6 @@ import Atithi from "../img/atithi.jpeg"
 
 function createContent () {
     let content = document.querySelector("#content");
-    content.style.display = "flex";
-    content.style.alignItems = "center";
-    content.style.flexDirection = "column";
     
     let intro = document.createElement("div");
     intro.textContent = "Welcome to India - the land of delicious food, and amazing tastes. " +  

@@ -1,1 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+#content {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
