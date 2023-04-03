@@ -44,3 +44,4 @@ btn3.addEventListener("click", function (e) {
 btnDiv.appendChild(btn3);
 
 document.querySelector("body").insertBefore(btnDiv, document.querySelector("#content"));
+document.querySelectorAll("button").forEach(e => {e.style.fontSize = "2rem";});
