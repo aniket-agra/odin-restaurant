@@ -4,7 +4,6 @@ button {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   background-color: lightblue;
-  margin-bottom: -2px;
 }
 
 .showBorder {
@@ -14,9 +13,14 @@ button {
 .buttons {
   display: flex;
   justify-content: center;
+  margin-bottom: -2px;
 }
 
 #content {
+  margin: auto;
   background-color: lightblue;
   border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  width: 70%;
 }
