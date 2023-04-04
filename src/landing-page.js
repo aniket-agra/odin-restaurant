@@ -4,6 +4,7 @@ import Atithi from "../img/atithi.jpeg"
 
 function createContent () {
     let content = document.querySelector("#content");
+    content.style.justifyContent = "space-around";
     
     let intro = document.createElement("div");
     intro.textContent = "Welcome to India - the land of delicious food, and amazing tastes. " +  

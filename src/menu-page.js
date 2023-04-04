@@ -5,7 +5,7 @@ import Data from "./menu-data.tsv";
 
 function createContent () {
     let content = document.querySelector("#content");
-    content.style.paddingTop = "5%";
+    content.style.justifyContent = "space-around";
 
     let element = document.createElement("div");
     element.style.display = "grid";
