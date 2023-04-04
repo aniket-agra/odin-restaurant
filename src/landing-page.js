@@ -14,7 +14,7 @@ function createContent () {
     intro.style.width = "60%";
     content.appendChild(intro);
 
-    const myImg = new Image();
+    const myImg = new Image(400);
     myImg.src = Atithi;
     content.appendChild(myImg);
 }
